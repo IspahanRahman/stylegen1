@@ -1,6 +1,6 @@
 "use client";
 
-import { useAdminDashboard } from "@/hook/useAdminDashboard";
+import { useAdminDashboard } from "@/hooks/useAdminDashboard";
 import Link from "next/link";
 import {
   ShoppingBag,

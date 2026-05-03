@@ -3,6 +3,9 @@ import { Menu, X} from 'lucide-react'
 export default function MobileNav({
   isOpen,
   onToggle,
+}: {
+  isOpen: boolean;
+  onToggle: () => void;
 }) {
   return (
     <button
